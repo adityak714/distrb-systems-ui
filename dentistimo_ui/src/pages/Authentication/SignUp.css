@@ -1,0 +1,76 @@
+.SignUp-form{
+    width: 101%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 30px 50px ;
+    justify-content: center;
+    background: #edf0f1;
+}
+.wrapper{
+  width: 580px;
+  height: 710px;
+  padding: 40px 30px 50px 30px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+
+}
+.input-area{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    height: 40px;
+  }
+  .input-date{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    height: 40px;
+    filter: invert(0.7);
+  }
+
+form .pass-txt{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+  }
+
+button{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;
+    background:rgba(7, 173, 131, 0.742);
+    border: none;
+    transition: all 0.2s ease;
+  }
+  button:hover{
+    background: rgba(7, 215, 163, 0.742);
+  }
+
+  #name{
+    margin-top: 40px;
+    height: 35px;
+    width: 70%; 
+    position: center;
+  }
+  
+  #email{
+    margin-top: 20px;
+    height: 35px;
+    width: 70%; 
+    position: center;
+  }
+
+  #password{
+    margin-top: 20px;
+    height: 35px;
+    width: 70%;
+    position: center;
+}

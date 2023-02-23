@@ -1,0 +1,16 @@
+.content {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#dentistries {
+    margin-top: 2rem;
+}
+
+#appointments {
+    height: 80rem;
+    width: 100%;
+    border-radius: 0px;
+}

@@ -1,0 +1,18 @@
+#container {
+    background-color: #edf0f1;
+    width: 101%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    color:rgb(91, 91, 91);
+    font-size: 35pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+}
+#sad-tooth {
+    width: 18rem;
+    margin-right: 3rem;
+}

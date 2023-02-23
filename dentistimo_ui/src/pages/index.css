@@ -1,0 +1,57 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-options {
+    width: 35%;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+main.landing-page {
+    display: flex;
+    width: 101%;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background-image: url(../assets/dentist.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-login {
+    background-color: rgba(0, 100, 0, 0.25);
+    width: 20%;
+    color: black;
+    transition: 0.4s;
+}
+
+#press-login:hover {
+    background-color: rgba(0, 100, 0, 0.5);
+    color: white;
+    transition: 0.4s;
+}
+
+.content {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 100, 100, 0.3);
+    margin: 20px;
+    border-radius: 30px;
+}
+
+#footer {
+    border-radius: 0px;
+    height: 20vh;
+    width: 101%;
+    background-color: rgba(0, 0, 0, 0.51);
+    box-shadow: 8px 10px 15px -7px gray;
+    text-align: center;
+    margin: 0px;
+}

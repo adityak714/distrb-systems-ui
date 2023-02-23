@@ -1,0 +1,98 @@
+
+.login-form{
+    width: 101%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edf0f1;
+  }
+  
+  .wrapper{
+    width: 380px;
+    padding: 30px 30px 50px 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+  }
+  .wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .wrapper form{
+    margin: 40px 0;
+  }
+
+    .email{
+      margin-top: 40px;
+      height: 35px;
+      width: 70%; 
+      position: center;
+    }
+  
+    .password{
+      margin-top: 20px;
+      height: 35px;
+      width: 70%;
+      position: center;
+  }
+  form input{
+    width: 80%;
+    height: 90%;
+    padding: 0 10px;
+    align-items: center;
+    font-size: 18px;
+    background: none;
+    caret-color: #5372F0;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+  }
+  
+  form input::placeholder{
+    color: #bfbfbf;
+    font-size: 15px;
+  }
+  
+  form .pass-txt{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+  }
+  .wrapper a{
+    color:black;
+  }
+  form input[type="submit"]{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 25px;
+    background:rgba(7, 173, 131, 0.742);
+    transition: all 0.3s ease;
+  }
+  form input[type="submit"]:hover{
+    background: #2cedd3;
+    transform: scale(1.25);
+   
+  }
+  
+  #loading-screen {
+    position:absolute;
+    top:70%;
+    right: 48%;
+  }
+
+  .form-value {
+    color: red;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  

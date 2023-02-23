@@ -1,0 +1,17 @@
+.search_bar {
+    display: flex;
+}
+
+.search_input input {
+    height: 2.2rem;
+    border-radius: 15px;
+    width: 22rem;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    outline: none;
+}
+
+input[type="text"]{
+    font-size: large;
+    padding-left: 1.2rem;
+ }

@@ -1,0 +1,29 @@
+.contain{
+    margin-top: 170px;
+      color: white;
+      width: 88.5%;
+      margin-left: 50px;
+      background:#5fc1aac0;
+      border-radius: 10px;
+      text-align: center;
+      border: 1.5px solid rgba(0, 0, 0, 0.2);
+      color: white;
+    
+  
+  }
+
+.Table, thead, tbody,tr{
+  text-align: center;
+  font-size: large;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
